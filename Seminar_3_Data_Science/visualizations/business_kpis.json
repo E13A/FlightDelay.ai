@@ -1,0 +1,15 @@
+{
+  "conversion_rate_percent": 98.48,
+  "policy_purchase_rate_percent": 59.06,
+  "claim_rate_percent": 12.63,
+  "average_transaction_value": 426.88,
+  "average_claim_amount": 243.47,
+  "total_claims_paid": 90815.33,
+  "loss_ratio_percent": 35.29,
+  "avg_time_to_finality_seconds": 129679.92,
+  "median_time_to_finality_seconds": 129600.0,
+  "total_revenue": 2391682.74,
+  "revenue_per_user": 1913.35,
+  "timestamp": "2025-12-02T19:26:13.947163",
+  "kpi_type": "business"
+}

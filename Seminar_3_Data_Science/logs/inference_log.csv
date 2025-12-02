@@ -1,0 +1,6 @@
+timestamp,model_name,input_features,output_score,prediction,metadata
+2025-12-02T02:41:59.499213,isolation_forest,"{""total_payment"": 5000.0, ""claim_ratio"": 0.8, ""days_to_departure"": -10}",-0.10266472355667111,-1,"{""is_anomaly"": true}"
+2025-12-02T02:41:59.505387,risk_classifier,"{""total_payment"": 300.0, ""days_to_departure"": 30}",0.07085842156094643,0,"{""model_type"": ""random_forest""}"
+2025-12-02T02:41:59.509550,xgboost_classifier,"{""total_payment"": 300.0, ""days_to_departure"": 30, ""claim_ratio"": 0.2}",0.9963906407356262,1,"{""model_type"": ""xgboost""}"
+2025-12-02T02:41:59.511149,price_regressor,"{""days_to_departure"": 15}",430.74924737230475,430.74924737230475,
+2025-12-02T02:41:59.551391,clustering,"{""total_payment"": 450.0, ""days_to_departure"": 20}",,0,

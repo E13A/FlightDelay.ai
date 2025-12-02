@@ -1,0 +1,19 @@
+{
+  "anomaly_detection_rate": 0.05,
+  "risk_classifier_accuracy": 0.928,
+  "risk_classifier_precision": 0.8611840000000001,
+  "risk_classifier_recall": 0.928,
+  "risk_classifier_f1": 0.8933443983402489,
+  "risk_classifier_roc_auc": 0.4320746527777778,
+  "xgboost_classifier_accuracy": 0.998,
+  "xgboost_classifier_precision": 0.9980043010752688,
+  "xgboost_classifier_recall": 0.998,
+  "xgboost_classifier_f1": 0.9979869919192226,
+  "xgboost_classifier_roc_auc": 0.9794809626436782,
+  "price_regressor_mse": 46063.33344401911,
+  "price_regressor_rmse": 214.62370196233945,
+  "price_regressor_r2": -0.0016555422592845481,
+  "clustering_silhouette_score": 0.3537821032080724,
+  "clustering_n_clusters": 3,
+  "timestamp": "2025-12-02T02:44:56.375554"
+}
