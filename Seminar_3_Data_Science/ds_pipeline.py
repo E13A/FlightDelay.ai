@@ -77,9 +77,17 @@ class FeatureEngineer:
 
 if __name__ == "__main__":
     # Example usage
-    loader = DataLoader('.')
+    # Ensure data_generation path is correct
+    if os.path.exists('data_generation'):
+        loader = DataLoader('data_generation')
+    else:
+        loader = DataLoader('sprint_3/data_generation') # Fallback
+        
     users, bookings, payments, claims, flights, policies = loader.load_all()
     engineer = FeatureEngineer()
     df_features = engineer.process(users, bookings, payments, claims, flights, policies)
     print(df_features.head())
+    
+    # Ensure output dir exists
+    os.makedirs('sprint_3', exist_ok=True)
     df_features.to_csv('sprint_3/features.csv', index=False)

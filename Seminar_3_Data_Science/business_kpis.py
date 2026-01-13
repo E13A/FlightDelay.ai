@@ -10,7 +10,7 @@ class BusinessKPICalculator:
     These KPIs measure actual business outcomes and system performance.
     """
     
-    def __init__(self, data_dir='sprint_3/data_generation'):
+    def __init__(self, data_dir='data_generation'):
         self.data_dir = data_dir
         self.kpis = {}
         
